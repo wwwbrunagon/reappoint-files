@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  width: 500px;
+  padding: 30px;
+  margin: 30px auto;
+  -webkit-box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.31);
+          box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.31);
+}
+
+form #spreadsheet__input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 10px;
+  text-align-last: center;
+  margin: 10px auto;
+  color: #3d5c5c;
+}
+
+form #folderstructure__input {
+  width: 100%;
+  padding: 13px 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 10px;
+  text-align-last: center;
+  margin: 10px auto;
+  color: #004d4d;
+  font-size: 10px;
+}
+
+#rename__title {
+  text-align: center;
+  font-size: 25px;
+  color: #003333;
+}
+
+#origin__title, #dest__title, #folderstructure__txt {
+  font-size: 9px;
+  color: #4d5a5a;
+  text-align: center;
+  text-align: center;
+  margin-top: -4px;
+}
+
+#results {
+  font-size: 10px;
+  color: #b10a0a;
+  text-align: center;
+  margin-top: -10px;
+}
+
+#btn-input, #btn-destfile, #btn-createfile, #btn__refresh {
+  display: block;
+  border: 1px solid #94b8b8;
+  color: #1f2e2e;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  padding: 8px;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  margin: 20px auto;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+}
+
+#btn-input:hover, #btn-destfile:hover, #btn-createfile:hover, #btn__refresh:hover {
+  background-color: #669999;
+  color: #ffffff;
+}
+
+#btn-input:active, #btn-destfile:active, #btn-createfile:active, #btn__refresh:active {
+  background-color: #145252;
+  color: #e0e0e0;
+}
+
+#btn__refresh {
+  width: 40%;
+  margin: 30px auto;
+}
+/*# sourceMappingURL=index.css.map */
